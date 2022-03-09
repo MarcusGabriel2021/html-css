@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+
+    background-color: #0a7d3c93;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    text-indent: 20px;
+    background-color: #0B6687;
+    color: aliceblue;
+    font-weight: 800;
+}
+h1#Principal{
+    
+    background-color: #0B6687;
+    color: aliceblue;
+    text-align: center;
+
+}
+.Básico{
+    
+    color: #013647;
+
+}
+.Médio{
+
+    color: #948B09;
+}
+.Avançado{
+
+    color: #470818;
+}
+p{
+
+    text-align: justify;
+}

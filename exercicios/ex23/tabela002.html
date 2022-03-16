@@ -15,6 +15,7 @@
 
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
         td, th{
@@ -32,10 +33,20 @@
             background-color: darkgreen;
             color: aliceblue;
         }
+        thead > tr > th{
+
+            position: sticky;
+            top: 0;
+            background-color: darkblue;
+        }
         thead, tfoot{
 
             background-color: darkblue;
             color: aliceblue;
+        }
+        tbody > tr:nth-child(odd){
+
+            background-color: lightblue;
         }
     </style>
 </head>
